@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyWebApplication</title>
+    <link href="/templates/css/form.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+
+<script src="/static/getrequest.js" crossorigin="anonymous"></script>
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Customer Details</h3>
+                    <p>Fill in the data below.</p>
+                    <form id="customerform" class="requires-validation" novalidate>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="number" name="Phone Number" placeholder="Phone Number" required>
+                        </div>
+                        <div class="col-md-12">
+                            <input class="form-control" type="number" name="Identification Number" placeholder="ID" required></div>
+
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
